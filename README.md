@@ -93,14 +93,22 @@ D4.若要轉出APK需要安裝JDK和Android SDK。
 
 
 8.教學內容版權聲明
+
 智能合約撰寫：劉岳峰（Arina團隊）
-Unity3D專案製作：虎哥
-Slot C#撰寫：虎哥
+
+Unity3D專案製作：虎哥（Arina團隊）
+
+Slot C#撰寫：虎哥（Arina團隊）
+
 視覺ＵＩ製作：Arina團隊
 
 
 9.Arin團隊其他Dapp介紹
+
 Arina地產大亨：https://www.arinatycoon.com
+
 Arina Hunters(封測中):https://www.arinahunters.com
+
 Arina官網：https://www.arinamillion.com
+
 詢問Line ID: tiggerzeeen
