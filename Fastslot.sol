@@ -167,8 +167,7 @@ library Address {
 contract Fastsolt is math{  
     using Address for address;
     function() external payable{}
-  
-    //1~100
+
     uint public randonNumber;
     uint public payment = 10**18;
     uint public maxNumber = 101;
@@ -176,7 +175,6 @@ contract Fastsolt is math{
     mapping (uint => uint) public odds; 
     uint public oddsNumber;
     address manager;
-    address _GameAddr;
 
     event gameData(address player, uint cost, uint randonNumber);
 
@@ -209,14 +207,9 @@ contract Fastsolt is math{
         require(msg.sender == manager);
         _;
     }
-    
-
-    function setGameAddr(address _sGameAddr) public onlymanager {
-        _GameAddr = _sGameAddr;
-    }
 	
 	function GameAddr() public view returns(address){
-        return _GameAddr;
+        return address(this);
     }
 	
     function play_game()external payable{
